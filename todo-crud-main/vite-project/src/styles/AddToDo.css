@@ -1,0 +1,29 @@
+.add-todo-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 8px;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.hint {
+  color: #888;
+}
+
+.add-button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
